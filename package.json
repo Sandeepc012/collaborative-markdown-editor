@@ -1,0 +1,15 @@
+{
+  "name": "collaborative-markdown-editor",
+  "version": "1.0.0",
+  "description": "Real-time collaborative Markdown editor with AI-like summarization",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "ws": "^8.13.0",
+    "yjs": "^13.5.58",
+    "y-websocket": "^1.4.5"
+  }
+}
