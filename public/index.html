@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Collaborative Markdown Editor</title>
+  <style>
+    body { font-family: sans-serif; margin: 20px; }
+    #editor { width: 100%; height: 300px; border: 1px solid #ccc; padding: 10px; }
+    #summary { margin-top: 20px; padding: 10px; border: 1px solid #eee; background: #f9f9f9; }
+    button { margin-top: 10px; }
+  </style>
+</head>
+<body>
+  <h1>Collaborative Markdown Editor</h1>
+  <div id="editor" contenteditable="true"></div>
+  <button id="summarize">Summarize</button>
+  <h2>Summary</h2>
+  <div id="summary"></div>
+  <script src="https://unpkg.com/yjs@13.5.58/dist/yjs.js"></script>
+  <script src="https://unpkg.com/y-websocket@1.4.5/dist/y-websocket.js"></script>
+  <script src="client.js"></script>
+</body>
+</html>
